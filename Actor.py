@@ -2,7 +2,15 @@
 
 
 class Actor:
-    def __init__(self, name, health):
+    name:str
+    health:int
+    strength:float
+    def __init__(self, name, health, strength):
         self.name = name
         self.health = health
+        self.strength = strength
         pass
+    def meleeAttack(self):
+        pass
+
+

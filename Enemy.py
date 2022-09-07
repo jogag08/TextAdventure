@@ -2,6 +2,7 @@
 from Actor import Actor
 
 class Enemy:
-    def __init__(self, type, strength):
+    type:str
+    def __init__(self, type):
         self.type = type
         pass
